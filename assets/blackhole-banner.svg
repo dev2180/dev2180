@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+<title id="title">Dev Sharma — Black hole systems banner</title>
+<desc id="desc">A deep-space black hole with electric-blue accretion rings, stars, and terminal-inspired interface lines.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#020611"/><stop offset=".55" stop-color="#06172e"/><stop offset="1" stop-color="#02040b"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#38bdf8" stop-opacity=".42"/><stop offset=".48" stop-color="#2563eb" stop-opacity=".16"/><stop offset="1" stop-color="#020611" stop-opacity="0"/></radialGradient>
+  <linearGradient id="ring" x1="0" x2="1"><stop stop-color="#0b3b75"/><stop offset=".35" stop-color="#38bdf8"/><stop offset=".58" stop-color="#dff8ff"/><stop offset=".8" stop-color="#2563eb"/><stop offset="1" stop-color="#082a56"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+  <filter id="shine"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<rect width="1280" height="320" fill="url(#bg)"/>
+<ellipse cx="850" cy="150" rx="440" ry="210" fill="url(#glow)"/>
+<g fill="#b9eaff">
+  <circle cx="90" cy="48" r="1.4"/><circle cx="190" cy="220" r="1"/><circle cx="320" cy="80" r="1.2"/><circle cx="430" cy="265" r="1.3"/><circle cx="545" cy="55" r="1"/><circle cx="690" cy="28" r="1.5"/><circle cx="1010" cy="48" r="1.2"/><circle cx="1160" cy="250" r="1.4"/><circle cx="1220" cy="95" r="1"/>
+</g>
+<g transform="translate(850 150) rotate(-9)">
+  <ellipse rx="370" ry="105" fill="none" stroke="#0755a2" stroke-width="42" opacity=".22" filter="url(#blur)"/>
+  <ellipse rx="345" ry="84" fill="none" stroke="url(#ring)" stroke-width="15" opacity=".92" filter="url(#shine)"/>
+  <ellipse rx="315" ry="68" fill="none" stroke="#60d8ff" stroke-width="3" opacity=".85"/>
+  <ellipse rx="280" ry="48" fill="none" stroke="#c9f4ff" stroke-width="2" opacity=".72"/>
+  <ellipse rx="235" ry="32" fill="none" stroke="#2563eb" stroke-width="9" opacity=".65"/>
+  <ellipse rx="118" ry="118" fill="#02040a"/>
+  <ellipse rx="125" ry="125" fill="none" stroke="#38bdf8" stroke-width="2" opacity=".8"/>
+  <path d="M-340 0 C-230 -92 -130 -110 0 -105 C150 -100 250 -70 350 -8" fill="none" stroke="#b8efff" stroke-width="2" opacity=".7"/>
+  <path d="M-320 15 C-210 85 -110 100 15 94 C150 88 245 52 330 5" fill="none" stroke="#278bff" stroke-width="3" opacity=".8"/>
+</g>
+<path d="M0 270 H330 L355 245 H480" stroke="#0b5aa5" stroke-width="1.5" fill="none" opacity=".8"/>
+<path d="M900 42 H1090 L1110 22 H1280" stroke="#168bd4" stroke-width="1.5" fill="none" opacity=".8"/>
+<g fill="#7dd3fc" font-family="monospace">
+  <text x="52" y="92" font-size="13" letter-spacing="3">DEV2180 / SYSTEMS LOG</text>
+  <text x="52" y="147" font-size="27" font-weight="bold" letter-spacing="2">BUILD. AUTOMATE. SCALE.</text>
+  <text x="54" y="177" font-size="13" letter-spacing="2" opacity=".8">APPLIED AI  •  SYSTEMS ENGINEERING  •  SPATIAL COMPUTING</text>
+  <text x="54" y="225" font-size="12" opacity=".65">$ whoami  →  applied-ai-engineer</text>
+</g>
+<rect x="52" y="244" width="8" height="18" fill="#38bdf8"/>
+</svg>
