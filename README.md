@@ -1,7 +1,7 @@
 <!-- DEV2180 | Terminal / Electric Blue profile -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dev2180/dev2180/main/assets/blackhole-banner.svg" width="100%" alt="Electric-blue black hole banner" />
+  <img src="https://raw.githubusercontent.com/dev2180/dev2180/main/assets/blackhole-event-horizon.gif" width="100%" alt="Electric-blue black hole banner" />
 </div>
 
 <div align="center">
